@@ -11,7 +11,7 @@ ARIA AI is an innovative mobile application designed to address the challenges f
 - **CI/CD Pipeline:** A robust pipeline enables periodic model fine-tuning, ensuring ARIA's recommendation system evolves continuously, providing more accurate and effective solutions over time.  
 
 **Technical Stack:**  
-- **Frontend:** Built with React Native, offering a seamless cross-platform experience for iOS and Android users.  
+- **Frontend:** Built with Flutter, offering a seamless cross-platform experience for iOS and Android users.  
 - **Backend:** FastAPI ensures efficient and high-performance web services.  
 - **Database:** Neo4j's graph database facilitates complex and interconnected health data management.  
 - **API:** GraphQL enhances data flexibility, enabling tailored responses to user queries.  
