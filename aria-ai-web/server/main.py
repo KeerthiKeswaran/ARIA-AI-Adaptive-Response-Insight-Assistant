@@ -18,8 +18,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-client = MongoClient("mongodb+srv://Keerthi29:KeerthiMongo22@cluster0.vbcz9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-#client = MongoClient("mongodb+srv://Keerthi29:KeerthiMongo22@ariacluster.vbcz9.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("")
 db = client['ariaDatabase']  
 users_collection = db['ariaUser']
 print("Initialized MongoDB!")
